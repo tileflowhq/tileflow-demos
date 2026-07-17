@@ -38,15 +38,15 @@ export default defineTileflow({
           water: "minimal",
         }),
         roads({
-          preset: "minimal",
-          detail: "streets",
-          hierarchy: "strong",
-          weight: "thin",
-          casing: "subtle",
+          detail: "all", // "none" | "highways" | "major" | "streets" | "all"
+          hierarchy: "clear", // "subtle" | "clear" | "strong"
+          weight: "bold", // "thin" | "regular" | "bold"
+          outline: "strong", // "none" | "subtle" | "strong"
           extras: {
-            paths: false,
-            rail: false,
-            ferry: false,
+            // Optional; each extra defaults to false
+            paths: false, // true | false
+            rail: false, // true | false
+            ferry: false, // true | false
           },
         }),
       ],
