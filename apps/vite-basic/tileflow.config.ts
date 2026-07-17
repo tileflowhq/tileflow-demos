@@ -1,34 +1,26 @@
-import { defineTileflow, labels, osm, poi } from "@tileflow/core";
+import { defineTileflow, labels, osm, roads } from "@tileflow/core";
 
 export default defineTileflow({
   themes: {
     light: {
       colors: {
-        background: "#f8f7f7",
-        land: "#f4f2ed",
-        water: "#8ed6e8",
-        park: "#9febbcff",
-        building: "#faf9ecff",
+        background: "#ebebeb",
+        land: "#ebebeb",
+        water: "#82c8ed",
+        park: "#e8ebe8",
+        building: "#e7e7e7",
         road: "#ffffff",
-        roadMajor: "#e7e4e0ff",
-        roadCasing: "#afaaa3ff",
-        boundary: "#c9ced3",
-        text: "#566371",
-        textMuted: "#8a98a8",
+        roadMajor: "#ffffff",
+        roadCasing: "#e3e3e3",
+        boundary: "#d4d4d4",
+        text: "#5f5f5f",
+        textMuted: "#8a8a8a",
         textHalo: "#ffffff",
-      },
-      typography: {
-        font: "Inter",
       },
       modules: {
         labels: {
-          road: "#7a8794",
-          water: "#4b8fa8",
-        },
-        poi: {
-          food: "#d97706",
-          culture: "#7c3aed",
-          transit: "#2563eb",
+          road: "#777777",
+          water: "#337fa5",
         },
       },
     },
@@ -36,18 +28,17 @@ export default defineTileflow({
   maps: {
     madrid: {
       basemap: osm(),
-      icons: "./assets/map-icons",
       theme: "light",
+      poi: "none",
       modules: [
         labels({
+          preset: "essential",
+          places: "none",
           roads: "minimal",
-          water: "balanced",
+          water: "minimal",
         }),
-        poi({
-          preset: "balanced",
-          categories: ["food", "coffee", "culture", "transit", "shopping"],
-          icons: "essential",
-          minZoom: 14,
+        roads({
+          preset: "minimal",
         }),
       ],
       view: {
