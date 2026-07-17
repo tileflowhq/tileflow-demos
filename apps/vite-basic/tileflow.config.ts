@@ -19,7 +19,7 @@ export default defineTileflow({
       },
       modules: {
         labels: {
-          road: "#777777",
+          road: "#000000",
           water: "#337fa5",
         },
       },
@@ -32,16 +32,16 @@ export default defineTileflow({
       poi: "none",
       modules: [
         labels({
-          preset: "essential",
-          places: "none",
-          roads: "minimal",
-          water: "minimal",
+          language: "es", // "auto" | "local" | language code, e.g. "es" or "en"
+          places: "none", // "none" | "major" | "all"
+          roads: "major", // "none" | "major" | "all"
+          water: "major", // "none" | "major" | "all"
         }),
         roads({
-          detail: "all", // "none" | "highways" | "major" | "streets" | "all"
-          hierarchy: "clear", // "subtle" | "clear" | "strong"
+          detail: "major", // "none" | "highways" | "major" | "streets" | "all"
+          hierarchy: "strong", // "subtle" | "clear" | "strong"
           weight: "bold", // "thin" | "regular" | "bold"
-          outline: "strong", // "none" | "subtle" | "strong"
+          outline: "none", // "none" | "subtle" | "strong"
           extras: {
             // Optional; each extra defaults to false
             paths: false, // true | false

@@ -55,14 +55,14 @@ importers:
   apps/vite-basic:
     dependencies:
       '@tileflow/core':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13
       '@tileflow/react':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(maplibre-gl@5.24.0)(react@19.2.7)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(maplibre-gl@5.24.0)(react@19.2.7)
       '@tileflow/vite':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0))
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0))
       maplibre-gl:
         specifier: ^5.24.0
         version: 5.24.0
@@ -74,8 +74,8 @@ importers:
         version: 19.2.7(react@19.2.7)
     devDependencies:
       '@tileflow/cli':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(hono@4.12.27)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(hono@4.12.27)
       '@types/node':
         specifier: ^25.9.2
         version: 25.9.3
@@ -472,8 +472,8 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@tileflow/cli@0.1.0-alpha.12':
-    resolution: {integrity: sha512-hST46TbXzFuop7YFxCDSfIAtMxoM/wmEhq9CesHy1jZglPfoGK0jdBmmkn7DTyBc8jERhUZ5DjvAt9bb2wRZeg==}
+  '@tileflow/cli@0.1.0-alpha.13':
+    resolution: {integrity: sha512-lm58FqctbZg9cQ1PHHtj82G94Ii+qHiq2IZ1RugBrIoyaplcjwlA4TiubWBo7rOH7mTebThPqObRbLiKyNZOmw==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -482,14 +482,14 @@ packages:
     engines: {node: '>=22.12.0'}
     hasBin: true
 
-  '@tileflow/core@0.1.0-alpha.12':
-    resolution: {integrity: sha512-MriVz38Ygl/e01CazbYwBoMuiHmvlg3XOr6w+CDEGIvdzwMHqrdho/PIg95FqOcOr4ZL7Uk6flj/SVDpubEqMA==}
+  '@tileflow/core@0.1.0-alpha.13':
+    resolution: {integrity: sha512-ASO/UYk+OKaKA34c438j/AAOSDGWfDIKhieR1enJp+7Ve87nMskVMmVC3fkWDprMEYchhqSAQ0kjHffZa1tFCw==}
 
   '@tileflow/core@0.1.0-alpha.8':
     resolution: {integrity: sha512-KOyD+LcvzW2CpwuJZlqahZTF58BFP3KYAUgbVP8UCbGOKbyOJpgRf687g/dJjUkatliqYmtIB4qiAiiX1XsJPg==}
 
-  '@tileflow/dev@0.1.0-alpha.12':
-    resolution: {integrity: sha512-cfmjI/Wm1dVZdzIMYhI+TE+qeubJF0nNTHqxRy/XC2lmDm89XWv3EkTvI+pXcKvhCVJ1ubHxvlA+PKFiTkjI9Q==}
+  '@tileflow/dev@0.1.0-alpha.13':
+    resolution: {integrity: sha512-RQ8efAbREG+n5+hrttdr5YX+YyfBilAVArlZMlB0XM4sfGF3l3Y5x0gfZx4dWj+8Wyv/k4eL41X4ExtQ5sAI2Q==}
 
   '@tileflow/dev@0.1.0-alpha.8':
     resolution: {integrity: sha512-CE+f6XaF2L3iaBISLT0ijGZ8CANdlr17J3CLs0E7/UkJEfU5Yi3f1IId5h4bnWhTOAAeurekkj2u6VY46+m/FA==}
@@ -499,8 +499,8 @@ packages:
     peerDependencies:
       next: '>=14'
 
-  '@tileflow/react@0.1.0-alpha.12':
-    resolution: {integrity: sha512-Mu9lE9Ae6fyJ5gBX4OKAu0Yv1LyCs9lbWcj/1Yl6WAbO0nXqERxw3et7BFRCtl/cxYQ6kBjJBcMNXPmHqmDQ5w==}
+  '@tileflow/react@0.1.0-alpha.13':
+    resolution: {integrity: sha512-7EkF6cz5ETnFN94pcCT+wWrmBmPFyRRriXX8FUXx/sRwEIjYU4sRw0Q28viq9uVxjzUpX7o+x0D8rIph+GRIpQ==}
     peerDependencies:
       maplibre-gl: '>=5'
       react: '>=18'
@@ -512,14 +512,14 @@ packages:
       react: '>=18'
       react-dom: '>=18'
 
-  '@tileflow/static@0.1.0-alpha.12':
-    resolution: {integrity: sha512-iJ2NKN2Y/tDaCKsTM+tiC2qV4uE4HxFmBCC3bzIrA8G//pCyN3UruhahqvjE+RkFvDC026uvYL0zaPmBfPi10g==}
+  '@tileflow/static@0.1.0-alpha.13':
+    resolution: {integrity: sha512-ZkLwRG1mKb8fwNSbpYostg4pGfWWMURQHJ1fQyGwr1DtxisSDAasN+aBc1F/UeXYxhW/6stx0QL4fk1XzRTRIg==}
 
   '@tileflow/static@0.1.0-alpha.8':
     resolution: {integrity: sha512-kDYvlkFQkhlS1t6fK6z5h24TdcHrANz/gGre0Qlj83Bz+z3Dlh/LAI8gZPV7OQsNUKoJ2vZIefbDfs+KPjddPQ==}
 
-  '@tileflow/vite@0.1.0-alpha.12':
-    resolution: {integrity: sha512-kUiIdlp/3dud3mTzoJdw5U97J6KI2VdacZFdATrIt9pD6Vuc0i5odS+cdFoPIO8QJo64Pzac75xEt5W2gn3apA==}
+  '@tileflow/vite@0.1.0-alpha.13':
+    resolution: {integrity: sha512-7XHFjOef6uUXHlHteQLuSA9Iks99MhPHqMwTR1vKbaIdUSqrptm1quLRBaxo+zCpaLPOMFowTxZlwqP6d062mw==}
     peerDependencies:
       vite: '>=5'
 
@@ -1114,11 +1114,11 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tileflow/cli@0.1.0-alpha.12(hono@4.12.27)':
+  '@tileflow/cli@0.1.0-alpha.13(hono@4.12.27)':
     dependencies:
       '@hono/node-server': 2.0.10(hono@4.12.27)
-      '@tileflow/core': 0.1.0-alpha.12
-      '@tileflow/dev': 0.1.0-alpha.12
+      '@tileflow/core': 0.1.0-alpha.13
+      '@tileflow/dev': 0.1.0-alpha.13
       commander: 15.0.0
       picocolors: 1.1.1
     transitivePeerDependencies:
@@ -1134,7 +1134,7 @@ snapshots:
     transitivePeerDependencies:
       - hono
 
-  '@tileflow/core@0.1.0-alpha.12':
+  '@tileflow/core@0.1.0-alpha.13':
     dependencies:
       zod: 4.4.3
 
@@ -1142,9 +1142,9 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  '@tileflow/dev@0.1.0-alpha.12':
+  '@tileflow/dev@0.1.0-alpha.13':
     dependencies:
-      '@tileflow/core': 0.1.0-alpha.12
+      '@tileflow/core': 0.1.0-alpha.13
       jiti: 2.7.0
     optionalDependencies:
       sharp: 0.34.5
@@ -1160,10 +1160,10 @@ snapshots:
       '@tileflow/dev': 0.1.0-alpha.8
       next: 16.2.10(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
 
-  '@tileflow/react@0.1.0-alpha.12(maplibre-gl@5.24.0)(react@19.2.7)':
+  '@tileflow/react@0.1.0-alpha.13(maplibre-gl@5.24.0)(react@19.2.7)':
     dependencies:
-      '@tileflow/core': 0.1.0-alpha.12
-      '@tileflow/static': 0.1.0-alpha.12
+      '@tileflow/core': 0.1.0-alpha.13
+      '@tileflow/static': 0.1.0-alpha.13
       maplibre-gl: 5.24.0
       react: 19.2.7
 
@@ -1175,7 +1175,7 @@ snapshots:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
 
-  '@tileflow/static@0.1.0-alpha.12':
+  '@tileflow/static@0.1.0-alpha.13':
     dependencies:
       zod: 4.4.3
 
@@ -1183,9 +1183,9 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  '@tileflow/vite@0.1.0-alpha.12(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0))':
+  '@tileflow/vite@0.1.0-alpha.13(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0))':
     dependencies:
-      '@tileflow/dev': 0.1.0-alpha.12
+      '@tileflow/dev': 0.1.0-alpha.13
       vite: 8.0.16(@types/node@25.9.3)(jiti@2.7.0)
 
   '@tybys/wasm-util@0.10.2':
