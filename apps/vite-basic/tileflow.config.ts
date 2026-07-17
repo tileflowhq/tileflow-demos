@@ -39,6 +39,15 @@ export default defineTileflow({
         }),
         roads({
           preset: "minimal",
+          detail: "streets",
+          hierarchy: "strong",
+          weight: "thin",
+          casing: "subtle",
+          extras: {
+            paths: false,
+            rail: false,
+            ferry: false,
+          },
         }),
       ],
       view: {
