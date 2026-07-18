@@ -34,7 +34,7 @@ export default defineTileflow({
         labels({
           language: "es", // "auto" | "local" | language code, e.g. "es" or "en"
           places: "none", // "none" | "major" | "all"
-          roads: "major", // "none" | "major" | "all"
+          roads: "major", // "none" | "highways" | "major" | "streets" | "all"
           water: "major", // "none" | "major" | "all"
         }),
         roads({
